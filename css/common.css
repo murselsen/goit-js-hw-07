@@ -130,5 +130,6 @@ button[type="reset"]:hover {
   width: fit-content;
   margin-top: 16px;
   display: flex;
+  flex-wrap: wrap;
   gap: 44px;
 }
