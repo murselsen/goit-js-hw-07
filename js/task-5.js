@@ -7,5 +7,5 @@ const getRandomHexColor = () => {
 document.querySelector(".change-color").addEventListener("click", (e) => {
   document.body.style.backgroundColor = getRandomHexColor();
   document.querySelector(".color").innerText = getRandomHexColor();
-  document.querySelector("p").style.color = ""
+  document.querySelector("p").style.color = "white";
 });
