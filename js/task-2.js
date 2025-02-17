@@ -39,6 +39,5 @@ images.forEach((image) => {
   imageElement.setAttribute("height", "300");
 
   imageListItem.appendChild(imageElement);
-
   gallery.appendChild(imageListItem);
 });
