@@ -1,6 +1,6 @@
 document.querySelector("#name-input").addEventListener("input", (event) => {
   event.preventDefault();
-  let result = event.target.value.trim();
+  let result = event.target.value;
   if (result !== null && result !== "" && result !== " ") {
     document.querySelector("#name-output").innerText = result;
   } else {
